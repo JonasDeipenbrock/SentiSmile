@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+    </head>
+    <body>
+        <main id="app">
+            <h1>Say Something!</h1>
+            <div id="microphone-wrapper">
+                <img src="microphone.svg" id="microphone-img" />
+            </div>
+            <button id="btn">Here!</button>
+            <div id="transcript"></div>
+        </main>
+        <footer>Footnotes</footer>
+        <script type="module" src="/main.js"></script>
+    </body>
 </html>
